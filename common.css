@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("font.css");
+
+/* common */
+* {margin:0;padding:0; position:relative;font-family: 'Noto Sans KR', sans-serif;  }
+header, footer, section, article{margin:0;padding:0;}
+body{margin:0;padding:0; width:100%; }
+body:after{clear:both; display:block; content:"";}
+img {border:0;vertical-align:middle;}
+label {vertical-align:middle;cursor:default;}		
+h1, h2, h3, h4, h5, h6 {margin:0;padding:0;}
+dl, dt, dd, ul, ol, li {list-style:none;margin:0;padding:0;font-size:15px;}
+div, p, pre, blockquote, th, td, map {margin:0;padding:0;font-size:1em;}
+em, i, address {font-style:normal;}
+table {display:table;border-spacing:0px;border-collapse:collapse;table-layout:fixed;color:#666;}
+caption {overflow:hidden;height:0;font-size:0;line-height:0;}
+hr {border:1px;border-collapse:collapse;}
+a, a:link {color:#666;text-decoration:none;}
+a:hover {color:#fff;text-decoration:none;}
+a:active {color:#fff;text-decoration:none;}
+form, fieldset {margin:0;padding:0;border:0;}
+legend, .hide, button.search span, .btn_pre span, .btn_next span, .visual_navi button span, .visual_navi a span, .login_form fieldset div label, 
+.list_notice li a span, .facility_tab li a span, .t_btn a.calendar span, .t_btn a.re_del span,  .t_btn a.re_write span
+{display:block;overflow:hidden;position:absolute;top:-9999px;left:-9999px;height:0;font-size:0;line-height:0;}
+textarea {resize:none;border:1px solid #b3b3b3;}
+textarea, input, select, button {margin:0;padding:0;font-size:15px;color:#666;vertical-align:middle;}
+img,input[type=checkbox],input[type=radio] {vertical-align:middle;}
+input[type=radio] {margin-right:3px;}
+input[type=text], input[type=password] {height:20px;line-height:20px;padding:3px 5px;}
